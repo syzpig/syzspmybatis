@@ -1,18 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
-   <bean id="dao" class="com.syz.spring.core.dao.IndexDaoImpl"></bean>
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd"
+       default-autowire="byType">
+
+
+    <!--<bean id="indexDao" class="com.syz.spring.core.dao.IndexDaoImpl"></bean>-->
 
     <!--通过setter方式注入-->
-    <bean id="service" class="com.syz.spring.core.service.IndexServiceImpl">
-       <property name="indexDao">  <!--这里的name 对应的事 是service类中需要注入的属性的setter方法名称，并不是属性-->
-           <ref bean="dao"></ref>  <!--这个dao是对象上面bean的id-->
+    <!--<bean id="service" class="com.syz.spring.core.service.IndexServiceImpl">
+       <property name="indexDao">  &lt;!&ndash;这里的name 对应的事 是service类中需要注入的属性的setter方法名称，并不是属性&ndash;&gt;
+           <ref bean="dao"></ref>  &lt;!&ndash;这个dao是对象上面bean的id&ndash;&gt;
        </property>
-    </bean>
-    <!--通过构造方法方式注入-->
+    </bean>-->
+    <!--1=通过构造方法方式注入-->
 
     <!--以上两种都是spring2.5的用法，都比较落后了,也没人用了。，因为在对象中已经说明的类之间的依赖关系（比如在service层类中已经定义了private IndexDaoImpl indexDao），
     上面两种配置又说明了一下。等于脱裤子放屁-->
 
+    <!--2=自动注入的方式-->
+    <!-- <bean id="service" class="com.syz.spring.core.service.IndexServiceImpl">
+     </bean>-->
+    <!--就是这两个对象已经存在好了-->
+    <!--接下来介绍怎么引用spring xml标签-->
+    <!--1引用如标签，但没有提示，2.引提示   如beans中配置-->
+
+    <!--3=自动装配 -->
+    <!--自动装配就是直接在类中描述类之间的依赖关系（IndexDaoImpl indexDao;  //注入这个dao），然后提供构造方法即可，不需要上面两种
+    方式，还要在xml再次声名-->
+    <!--最后还需要在配置文件中beans中添加default-autowire="byType"属性-->
+    <!--面试会问spring的自动装配有哪几种
+    1、no;2、byName;3、byType;4、第四个可以不用说-->
+    <!--byname是根据dao的名字装配，就是那个id
+    <bean id="dao" class="com.syz.spring.core.dao.IndexDaoImpl"></bean>
+    就是在IndexDaoImpl当中，他有一个依赖关系。他看到setIndexDao方法之后
+    就去配置文件中找id是否有IndexDao的-->
+
+    <!--bytype就是根据找是否存在IndexDaoImpl这个类型，有则输入，跟名字没有关系
+    但是如果该类中存在多个相同类型，就会出错 比如多个类他们继承dao接口
+    解决方案是不使用xml去写
+    就是不写 <bean id="indexDao" class="com.syz.spring.core.dao.IndexDaoImpl"></bean>登等这些
+    只需要在xml添加一个扫描 <context:component-scan base-package="com"></context:component-scan>配置
+    然后在所有的类中添加@Component注解 加这个注解其实就是把代码定义到xml当中去  就是把类放入到spring容器中
+    但是此时
+    在IndexServiceImpl indexService = (IndexServiceImpl) beanFactory.getBean("service");这一步需要一个service
+    这个service  上面声明bean
+      <bean id="service" class="com.syz.spring.core.service.IndexServiceImpl">
+      没有了，那么怎么执行呢？ 方法就是在@Component（"service"）注解中指定-->
+    <context:component-scan base-package="com"></context:component-scan>
+    <!--上面这个解决方案也是bytype另一个方式实现
+    此时发现注解  @Autowired没有任何卵用，有他没他都可以。
+    原因就是spring 有三种配置方式
+    xml
+    注解
+    javaconfig
+    这三种可以单独使用，同时也可以配合使用。所以世面上什么方式都有。所以上面方式就是注解加xml方式实现的  ，但是上面那个配置文件也可以去掉
+    都可以0配置。主推0配置。
+    那么什么情况下用xml、注解、javaconfig？ 但提上0配置
+    使用xml的愿意有两点1.是有10%必使用它的原因，就是有些问题必须使用，但情况少
+                      2.还有90%因为菜
+    另外上面的  解决方式还可用注解的方式去实现
+     @Autowired
+     @Qualifier("index")
+    IndexDaoImpl indexDao;  //注入这个dao
+    指定避免冲突方式-->
+
+
+   <!-- 接下来实现0配置方式
+    1、首先删除该配置文件
+    2.新建个config包
+    然后执行
+    新建测试类使用AnnotationConfigApplicationContext类获取配置文件对象
+    然后测试-->
+
+    <!--接下来实现混用的方式 比如在配置文件中声明个bean  -->
+    <!--<bean id="service" class="com.syz.spring.core.service.IndexServiceImpl"></bean>-->
+    <!--那么结合注解的方式怎么去找到这个配置文件呢。怎么加载这个配置文件呢
+    ，方法则是在配置文件类Config中引入@ImportResource("classpath:spring.xml")注解去加载这个配置文件即可
+-->
 </beans>
