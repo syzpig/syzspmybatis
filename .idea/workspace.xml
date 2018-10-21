@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1e44ece-bb32-491e-8ca1-9fb004123012" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/syzspringioc/src/main/java/com/syz/spring/utils/AnnotationConfigApplicationContext.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/syzspringioc/src/main/java/com/syz/spring/utils/Test.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/syzspringioc/readme.md" afterPath="$PROJECT_DIR$/syzspringioc/readme.md" />
+      <change beforePath="$PROJECT_DIR$/syzspringioc/src/main/java/com/syz/spring/dao/IndexDao.java" afterPath="$PROJECT_DIR$/syzspringioc/src/main/java/com/syz/spring/dao/IndexDao.java" />
+      <change beforePath="$PROJECT_DIR$/syzspringioc/src/main/java/com/syz/spring/service/IndexService.java" afterPath="$PROJECT_DIR$/syzspringioc/src/main/java/com/syz/spring/service/IndexService.java" />
+      <change beforePath="$PROJECT_DIR$/syzspringioc/src/main/java/com/syz/spring/utils/AnnotationConfigApplicationContext.java" afterPath="$PROJECT_DIR$/syzspringioc/src/main/java/com/syz/spring/utils/AnnotationConfigApplicationContext.java" />
       <change beforePath="$PROJECT_DIR$/syzspringioc/src/main/java/com/syz/spring/utils/ScanUtil.java" afterPath="$PROJECT_DIR$/syzspringioc/src/main/java/com/syz/spring/utils/ScanUtil.java" />
+      <change beforePath="$PROJECT_DIR$/syzspringioc/src/main/java/com/syz/spring/utils/Test.java" afterPath="$PROJECT_DIR$/syzspringioc/src/main/java/com/syz/spring/utils/Test.java" />
+      <change beforePath="$PROJECT_DIR$/syzspringioc/src/main/java/com/syz/spring/版本说明.md" afterPath="$PROJECT_DIR$/syzspringioc/src/main/java/版本说明.md" />
     </list>
     <ignored path="$PROJECT_DIR$/syzspringioc/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -35,35 +38,12 @@
       <file leaf-file-name="IndexService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/syzspringioc/src/main/java/com/syz/spring/service/IndexService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="14" lean-forward="false" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+            <state relative-caret-position="249">
+              <caret line="12" column="52" lean-forward="false" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#256#257#0" expanded="true" />
-                <element signature="e#306#307#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Autowired.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/syzspringioc/src/main/java/com/syz/spring/anno/Autowired.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="9" column="15" lean-forward="true" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IndexDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/syzspringioc/src/main/java/com/syz/spring/dao/IndexDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="1" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="9" selection-end-column="1" />
-              <folding>
-                <element signature="e#126#127#0" expanded="true" />
-                <element signature="e#172#173#0" expanded="true" />
+                <element signature="e#318#319#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -72,13 +52,21 @@
       <file leaf-file-name="ScanUtil.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/syzspringioc/src/main/java/com/syz/spring/utils/ScanUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+            <state relative-caret-position="226">
+              <caret line="81" column="52" lean-forward="false" selection-start-line="81" selection-start-column="52" selection-end-line="81" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2729#2730#0" expanded="true" />
-                <element signature="e#2762#2763#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IndexDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/syzspringioc/src/main/java/com/syz/spring/dao/IndexDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="7" column="46" lean-forward="false" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -86,8 +74,8 @@
       <file leaf-file-name="AppConfig.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/syzspring/src/main/webapp/java/com/syz/config/AppConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="10" />
+            <state relative-caret-position="199">
+              <caret line="24" column="14" lean-forward="false" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -96,8 +84,8 @@
       <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/syzspring/src/main/webapp/java/com/syz/test/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="9" column="42" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="42" />
+            <state relative-caret-position="115">
+              <caret line="7" column="44" lean-forward="true" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -106,24 +94,47 @@
       <file leaf-file-name="AnnotationConfigApplicationContext.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/syzspringioc/src/main/java/com/syz/spring/utils/AnnotationConfigApplicationContext.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="23" column="5" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="23" selection-end-column="5" />
+            <state relative-caret-position="186">
+              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/syzspringioc/src/main/java/com/syz/spring/utils/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="309">
+              <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
               <folding>
-                <element signature="e#275#276#0" expanded="true" />
-                <element signature="e#308#309#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/syzspringioc/src/main/java/com/syz/spring/utils/Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" column="42" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+      <file leaf-file-name="readme.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/syzspringioc/readme.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="363">
+                <caret line="34" column="56" lean-forward="false" selection-start-line="34" selection-start-column="56" selection-end-line="34" selection-end-column="56" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="版本说明.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/syzspringioc/src/main/java/版本说明.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="92">
+                <caret line="4" column="53" lean-forward="true" selection-start-line="4" selection-start-column="53" selection-end-line="4" selection-end-column="53" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -155,15 +166,17 @@
       <list>
         <option value="$PROJECT_DIR$/syzspring/src/main/webapp/java/com/syz/test/Test.java" />
         <option value="$PROJECT_DIR$/syzspring/src/main/webapp/java/com/syz/service/BaseUserService.java" />
-        <option value="$PROJECT_DIR$/syzspringioc/readme.md" />
         <option value="$PROJECT_DIR$/syzspringioc/src/main/java/com/syz/spring/anno/Component.java" />
-        <option value="$PROJECT_DIR$/syzspringioc/src/main/java/com/syz/spring/dao/IndexDao.java" />
         <option value="$PROJECT_DIR$/syzspringioc/src/main/java/com/syz/spring/anno/Autowired.java" />
+        <option value="$PROJECT_DIR$/syzspringioc/src/main/java/com/syz/spring/Test.java" />
+        <option value="$PROJECT_DIR$/syzspringioc/src/main/java/com/syz/spring/版本说明.md" />
+        <option value="$PROJECT_DIR$/syzspringioc/readme.md" />
+        <option value="$PROJECT_DIR$/syzspringioc/src/main/java/com/syz/spring/utils/AnnotationConfigApplicationContext.java" />
+        <option value="$PROJECT_DIR$/syzspringioc/src/main/java/com/syz/spring/utils/Test.java" />
+        <option value="$PROJECT_DIR$/syzspringioc/src/main/java/com/syz/spring/dao/IndexDao.java" />
         <option value="$PROJECT_DIR$/syzspringioc/src/main/java/com/syz/spring/service/IndexService.java" />
         <option value="$PROJECT_DIR$/syzspringioc/src/main/java/com/syz/spring/utils/ScanUtil.java" />
-        <option value="$PROJECT_DIR$/syzspringioc/src/main/java/com/syz/spring/utils/AnnotationConfigApplicationContext.java" />
-        <option value="$PROJECT_DIR$/syzspringioc/src/main/java/com/syz/spring/Test.java" />
-        <option value="$PROJECT_DIR$/syzspringioc/src/main/java/com/syz/spring/utils/Test.java" />
+        <option value="$PROJECT_DIR$/syzspringioc/src/main/java/版本说明.md" />
       </list>
     </option>
   </component>
@@ -203,10 +216,10 @@
     <option name="jreName" value="#JAVA_INTERNAL" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="30" />
-    <option name="y" value="18" />
+    <option name="x" value="-150" />
+    <option name="y" value="310" />
     <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="height" value="706" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -351,63 +364,6 @@
               <item name="syzspringioc" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="syz-sp-mybatis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="syzspmybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="syzspringioc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="syz-sp-mybatis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="syzspmybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="syzspringioc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="anno" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="syz-sp-mybatis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="syzspmybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="syzspringioc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="syz-sp-mybatis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="syzspmybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="syzspringioc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="syz-sp-mybatis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="syzspmybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="syzspringioc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="syz-sp-mybatis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="syzspmybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="syzspringioc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -431,6 +387,9 @@
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.syz.spring.anno" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\syzSpringCloudProject\spring-source-code\syzspmybatis\syzspringioc\src\main\java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -588,7 +547,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1540092380584</updated>
-      <workItem from="1540092382092" duration="8449000" />
+      <workItem from="1540092382092" duration="12686000" />
     </task>
     <task id="LOCAL-00001" summary="模拟springioc容器实例化对象">
       <created>1540106194248</created>
@@ -597,11 +556,25 @@
       <option name="project" value="LOCAL" />
       <updated>1540106194248</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="实现spring IOC容器功能">
+      <created>1540107766376</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1540107766376</updated>
+    </task>
+    <task id="LOCAL-00003" summary="添加版本说明">
+      <created>1540107959274</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1540107959274</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8449000" />
+    <option name="totallyTimeSpent" value="12686000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -615,7 +588,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.53453946" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -629,7 +602,7 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.57730263" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43256578" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -646,10 +619,27 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="模拟springioc容器实例化对象" />
-    <option name="LAST_COMMIT_MESSAGE" value="模拟springioc容器实例化对象" />
+    <MESSAGE value="实现spring IOC容器功能" />
+    <MESSAGE value="添加版本说明" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加版本说明" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/syzspringioc/src/main/java/com/syz/spring/utils/ScanUtil.java</url>
+          <line>29</line>
+          <properties />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/syzspringioc/src/main/java/com/syz/spring/utils/ScanUtil.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="2" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -666,28 +656,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/syzspringioc/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="161">
-            <caret line="25" column="15" lean-forward="false" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/syzspringioc/src/main/java/com/syz/spring/dao/IndexDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="1" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="9" selection-end-column="1" />
-          <folding>
-            <element signature="e#126#127#0" expanded="true" />
-            <element signature="e#172#173#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -709,64 +677,89 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/syzspringioc/src/main/java/com/syz/spring/service/IndexService.java">
+    <entry file="file://$PROJECT_DIR$/syzspring/src/main/webapp/java/com/syz/config/AppConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="14" lean-forward="false" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#256#257#0" expanded="true" />
-            <element signature="e#306#307#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="199">
+          <caret line="24" column="14" lean-forward="false" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/syzspring/src/main/webapp/java/com/syz/config/AppConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="10" />
-          <folding />
+    <entry file="file://$PROJECT_DIR$/syzspringioc/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="363">
+            <caret line="34" column="56" lean-forward="false" selection-start-line="34" selection-start-column="56" selection-end-line="34" selection-end-column="56" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/syzspring/src/main/webapp/java/com/syz/test/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="9" column="42" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="42" />
+        <state relative-caret-position="115">
+          <caret line="7" column="44" lean-forward="true" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/syzspringioc/src/main/java/com/syz/spring/utils/AnnotationConfigApplicationContext.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="23" column="5" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="23" selection-end-column="5" />
+        <state relative-caret-position="186">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/syzspringioc/src/main/java/com/syz/spring/utils/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
           <folding>
-            <element signature="e#275#276#0" expanded="true" />
-            <element signature="e#308#309#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/syzspringioc/src/main/java/com/syz/spring/dao/IndexDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="7" column="46" lean-forward="false" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/syzspringioc/src/main/java/com/syz/spring/service/IndexService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="12" column="52" lean-forward="false" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#318#319#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/syzspringioc/src/main/java/com/syz/spring/utils/ScanUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        <state relative-caret-position="226">
+          <caret line="81" column="52" lean-forward="false" selection-start-line="81" selection-start-column="52" selection-end-line="81" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2729#2730#0" expanded="true" />
-            <element signature="e#2762#2763#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/syzspringioc/src/main/java/com/syz/spring/utils/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="42" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/syzspringioc/src/main/java/版本说明.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="92">
+            <caret line="4" column="53" lean-forward="true" selection-start-line="4" selection-start-column="53" selection-end-line="4" selection-end-column="53" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

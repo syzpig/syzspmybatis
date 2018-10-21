@@ -10,7 +10,7 @@ public class IndexService {
     @Autowired
     private IndexDao indexDao;
     public void index() {
-        System.out.println("indexService");
+        System.out.println("indexService------------");
     }
 
 }
