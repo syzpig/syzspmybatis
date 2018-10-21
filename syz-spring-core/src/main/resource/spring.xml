@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+   <bean id="dao" class="com.syz.spring.core.dao.IndexDaoImpl"></bean>
+
+    <!--通过setter方式注入-->
+    <bean id="service" class="com.syz.spring.core.service.IndexServiceImpl">
+       <property name="indexDao">  <!--这里的name 对应的事 是service类中需要注入的属性的setter方法名称，并不是属性-->
+           <ref bean="dao"></ref>  <!--这个dao是对象上面bean的id-->
+       </property>
+    </bean>
+    <!--通过构造方法方式注入-->
+
+    <!--以上两种都是spring2.5的用法，都比较落后了,也没人用了。，因为在对象中已经说明的类之间的依赖关系（比如在service层类中已经定义了private IndexDaoImpl indexDao），
+    上面两种配置又说明了一下。等于脱裤子放屁-->
+
+</beans>

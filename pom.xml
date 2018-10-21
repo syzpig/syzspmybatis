@@ -11,6 +11,7 @@
     <modules>
         <module>syzspring</module>
         <module>syzspringioc</module>
+        <module>syz-spring-core</module>
     </modules>
 
 
