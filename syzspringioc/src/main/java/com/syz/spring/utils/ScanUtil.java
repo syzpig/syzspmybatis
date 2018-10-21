@@ -1,11 +1,18 @@
 package com.syz.spring.utils;
 
+import com.syz.spring.anno.Component;
+
 import java.io.File;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 /**
  * 这个类模拟spring 扫描类的工具类
  */
 public class ScanUtil {
+   public static List<Map<String, Object>> list = new ArrayList<>();
 
     public static void doScan() {
         //这个扫描方法第一步首先要包名。然后根据包名得到类所在的文件路径
@@ -15,18 +22,30 @@ public class ScanUtil {
         File file = new File(packagerPath);
         String[] chilFile = file.list();//按理说是使用递归，spring使用的就是递归，因为这个包下可能有好多级。这里就一级，所以用list简化
         for (String fileName : chilFile) {
-           // System.out.println(fileName);  //这获取的是文件名称，接下来再次获取对应文件名称
+            // System.out.println(fileName);  //这获取的是文件名称，接下来再次获取对应文件名称
             File file1 = new File(packagerPath + "\\" + fileName);
             //按理说这里还有判断还路径是否是目录，等判断，这里省略掉了，可看源码
             String[] clazzFileName = file1.list();
             for (String clazzName : clazzFileName) {
                 // 找到获取的文件后把点去掉，截取得到类名
                 clazzName = clazzName.substring(0, clazzName.indexOf("."));
+                Object obj;
                 //得到类名，开始进行实例化
                 try {
-                    Object springObject = Class.forName("com.syz.spring." + fileName + "." + clazzName).newInstance();//获取到名称路径后实例化
-                    System.out.println(springObject);
+                    /*Object springObject = Class.forName("com.syz.spring." + fileName + "." + clazzName).newInstance();//获取到名称路径后实例化
+                    System.out.println(springObject);*/
                     //但之前说过spring是只有加了注解的才进行实例化。所以接下来我们要判断是否添加注解才进行实例化
+                    //因此上面就不能直接new，要先拿到这个类进行判断，在进行初始化
+                    Class clazz = Class.forName("com.syz.spring." + fileName + "." + clazzName);//获取到名称路径后实例化
+                    //然后判断或者的这个类是否加上注解Component类,如果加了。则new
+                    if (clazz.isAnnotationPresent(Component.class)) {
+                        obj = clazz.newInstance();
+                        System.out.println(obj.getClass().getName());
+                        //接下来模拟springIOC,容器，把new的对象放入spring容器中就是list<Map<String,Object>>中,下面就简单模拟，用个map接，取，先不放list中
+                        Map<String,Object> map =new HashMap<>();
+                        map.put(clazz.getSimpleName(),obj);
+                        list.add(map);
+                    }
                 } catch (ClassNotFoundException e) {
                     e.printStackTrace();
                 } catch (IllegalAccessException e) {
@@ -36,6 +55,7 @@ public class ScanUtil {
                 }
             }
         }
+        System.out.println(list);
     }
 
     /**
