@@ -1,8 +1,8 @@
 <component name="ArtifactManager">
-  <artifact type="war" name="syzspring:war">
+  <artifact type="war" name="syz-spring:war">
     <output-path>$PROJECT_DIR$/syzspring/target</output-path>
     <root id="archive" name="syz-spring.war">
-      <element id="artifact" artifact-name="syzspring:war exploded" />
+      <element id="artifact" artifact-name="syz-spring:war exploded" />
     </root>
   </artifact>
 </component>

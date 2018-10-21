@@ -1,10 +1,10 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="syzspring:war exploded">
+  <artifact type="exploded-war" name="syz-spring:war exploded">
     <output-path>$PROJECT_DIR$/syzspring/target/syz-spring</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="syzspring" />
+          <element id="module-output" name="syz-spring" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: org.springframework:spring-context:5.0.6.RELEASE" />
@@ -23,7 +23,7 @@
       <element id="directory" name="META-INF">
         <element id="file-copy" path="$PROJECT_DIR$/syzspring/target/syz-spring/META-INF/MANIFEST.MF" />
       </element>
-      <element id="javaee-facet-resources" facet="syzspring/web/Web" />
+      <element id="javaee-facet-resources" facet="syz-spring/web/Web" />
     </root>
   </artifact>
 </component>

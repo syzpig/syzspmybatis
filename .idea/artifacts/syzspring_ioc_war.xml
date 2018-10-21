@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="syzspring-ioc:war">
+    <output-path>$PROJECT_DIR$/syzspringioc/target</output-path>
+    <root id="archive" name="syzspring-ioc.war">
+      <element id="artifact" artifact-name="syzspring-ioc:war exploded" />
+    </root>
+  </artifact>
+</component>
