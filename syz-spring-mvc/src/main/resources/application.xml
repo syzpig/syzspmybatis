@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--配置控制器地址  请求访问入口 最原始写法，这里只是用来讲解springMV源码案例   这个配文件配好。控制器是找不到的，所以要在web.xml中指定 -->
+    <bean name="/test1" class="com.syz.springmvc.controller.BeanController"/>
+</beans>

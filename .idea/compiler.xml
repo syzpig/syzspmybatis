@@ -8,13 +8,15 @@
         <outputRelativeToContentRoot value="true" />
         <module name="syz-spring" />
         <module name="syz-spring-core" />
+        <module name="syz-spring-mvc" />
         <module name="syzspring-ioc" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="syz-sp-mybatis" target="1.8" />
-      <module name="syz-spring" target="1.7" />
-      <module name="syz-spring-core" target="1.7" />
+      <module name="syz-spring" target="1.8" />
+      <module name="syz-spring-core" target="1.8" />
+      <module name="syz-spring-mvc" target="1.8" />
       <module name="syzspring-ioc" target="1.8" />
     </bytecodeTargetLevel>
   </component>

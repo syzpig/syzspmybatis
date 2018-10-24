@@ -1,0 +1,22 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <!--引入servlet-->
+  <servlet>
+    <servlet-name>springMVC</servlet-name>
+    <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+    <!--sppring配置文件只是好后控制器是找不到的，所以要在web.xml中指定  还有一种方式，是servlet-name名称写成固定的名称springMVC-servlet.xml。然后配置文件放在web-inf下-->
+    <init-param>
+      <param-name>contextConfigLocation</param-name>
+      <param-value>classpath:application.xml</param-value>
+    </init-param>
+  </servlet>
+  <!--接下来配置servlet对应mapping-->
+  <servlet-mapping>
+    <servlet-name>springMVC</servlet-name>
+    <url-pattern>/</url-pattern>  <!--因为他是控制器 针对所有请求都经过他-->
+  </servlet-mapping>
+</web-app>
