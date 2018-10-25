@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd
+       http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd">
+    <!--注解方式-->
+    <!--开启springMVC的注解-->
+    <mvc:annotation-driven></mvc:annotation-driven>
+    <!-- 扫描包-->
+    <context:component-scan base-package="com.syz.springmvc.controller"></context:component-scan>
+
+    <!--xml方式-->
     <!--配置控制器地址  请求访问入口 最原始写法，这里只是用来讲解springMV源码案例   这个配文件配好。控制器是找不到的，所以要在web.xml中指定 -->
     <bean name="/test1" class="com.syz.springmvc.controller.BeanController"/>
 </beans>
