@@ -9,10 +9,10 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>syz-spring-mvc</artifactId>
+    <artifactId>syz-spring-aop</artifactId>
     <packaging>war</packaging>
 
-    <name>syz-spring-mvc Maven Webapp</name>
+    <name>syz-spring-aop Maven Webapp</name>
     <!-- FIXME change it to the project's website -->
     <url>http://www.example.com</url>
 
@@ -29,23 +29,16 @@
             <version>4.11</version>
             <scope>test</scope>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/org.springframework/spring-webmvc -->
+       <!-- 这里引入spring的核心依赖，但不包括springMVC-->
         <dependency>
             <groupId>org.springframework</groupId>
-            <artifactId>spring-webmvc</artifactId>
-            <version>5.1.1.RELEASE</version>
-        </dependency>
-
-        <!-- https://mvnrepository.com/artifact/org.springframework/spring-web -->
-         <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-web</artifactId>
-            <version>5.1.1.RELEASE</version>
+            <artifactId>spring-context</artifactId>
+            <version>5.0.8.RELEASE</version>
         </dependency>
     </dependencies>
 
     <build>
-        <finalName>syz-spring-mvc</finalName>
+        <finalName>syz-spring-aop</finalName>
         <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
             <plugins>
                 <plugin>
