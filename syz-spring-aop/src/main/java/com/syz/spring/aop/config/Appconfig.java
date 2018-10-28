@@ -13,8 +13,8 @@ import org.springframework.context.annotation.EnableAspectJAutoProxy;
  * 这一1.12. Java-based Container Configuration菜单里
  */
 @Configuration
-@ComponentScan("com.syz.spring.aop.dao")  //开始扫描包，把类扫面到spring容器中去
-@EnableAspectJAutoProxy   /*实现aop功能  与xml配置一样  加个这个注解就可以实现AOP功能*/
+@ComponentScan("com.syz")  //开始扫描包，把类扫面到spring容器中去
+@EnableAspectJAutoProxy(proxyTargetClass = false)   /*实现aop功能  与xml配置一样  加个这个注解就可以实现AOP功能*/
 public class Appconfig {
 
 }
