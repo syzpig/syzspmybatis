@@ -1,4 +1,4 @@
-package com.syz.spring.aop.aopAspectj;
+package com.syz.spring.aop.aopaspectj;
 
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
