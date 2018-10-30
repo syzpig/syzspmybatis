@@ -10,6 +10,7 @@
         <module name="syz-spring-aop" />
         <module name="syz-spring-core" />
         <module name="syz-spring-mvc" />
+        <module name="syz-springmvc-framework" />
         <module name="syzspring-ioc" />
       </profile>
     </annotationProcessing>
@@ -19,6 +20,7 @@
       <module name="syz-spring-aop" target="1.8" />
       <module name="syz-spring-core" target="1.8" />
       <module name="syz-spring-mvc" target="1.8" />
+      <module name="syz-springmvc-framework" target="1.8" />
       <module name="syzspring-ioc" target="1.8" />
     </bytecodeTargetLevel>
   </component>

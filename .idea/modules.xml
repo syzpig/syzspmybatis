@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/syz-spring-aop/syz-spring-aop.iml" filepath="$PROJECT_DIR$/syz-spring-aop/syz-spring-aop.iml" />
       <module fileurl="file://$PROJECT_DIR$/syz-spring-core/syz-spring-core.iml" filepath="$PROJECT_DIR$/syz-spring-core/syz-spring-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/syz-spring-mvc/syz-spring-mvc.iml" filepath="$PROJECT_DIR$/syz-spring-mvc/syz-spring-mvc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/syz-springmvc-framework/syz-springmvc-framework.iml" filepath="$PROJECT_DIR$/syz-springmvc-framework/syz-springmvc-framework.iml" />
       <module fileurl="file://$PROJECT_DIR$/syzspringioc/syzspring-ioc.iml" filepath="$PROJECT_DIR$/syzspringioc/syzspring-ioc.iml" />
     </modules>
   </component>

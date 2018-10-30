@@ -4,6 +4,7 @@
     <file type="web" url="file://$PROJECT_DIR$/syz-spring-aop" />
     <file type="web" url="file://$PROJECT_DIR$/syz-spring-core" />
     <file type="web" url="file://$PROJECT_DIR$/syz-spring-mvc" />
+    <file type="web" url="file://$PROJECT_DIR$/syz-springmvc-framework" />
     <file type="web" url="file://$PROJECT_DIR$/syzspring" />
     <file type="web" url="file://$PROJECT_DIR$/syzspringioc" />
   </component>

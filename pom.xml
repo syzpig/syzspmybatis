@@ -14,6 +14,7 @@
         <module>syz-spring-core</module>
         <module>syz-spring-mvc</module>
         <module>syz-spring-aop</module>
+        <module>syz-springmvc-framework</module>
     </modules>
 
 
