@@ -4,4 +4,19 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+  <!--配置srvelet入口-->
+  <servlet>
+    <servlet-name>syzmvc</servlet-name>
+    <servlet-class>com.syz.springmvc.framework.mvcframework.servlet.SyzDispatcherServlet</servlet-class>
+    <!--配置初始化参数-->
+    <init-param>
+      <param-name>contextConfigLocation</param-name>
+      <param-value>application.properties</param-value>   <!--这个参数应该配置application.xml spring的主配置文件，这里简化使用application.properties-->
+    </init-param>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>syzmvc</servlet-name>
+    <url-pattern>/*</url-pattern>
+  </servlet-mapping>
 </web-app>
