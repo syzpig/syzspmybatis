@@ -45,5 +45,9 @@ mvc中有个核心的对象就是handlerMapping对象；这个对象主要就是
 方法，把结果写到浏览器返回，浏览器才能看到我们运行的结果。     
 ##**这个就是spring整个的运行的过程。**
 
-#开始手写springMVC
+#开始手写springMVC    
+代码时间抽：
+1.完成spring配置阶段
+2.开始进行是spring初始化阶段  让上面所有的配置都起效，完成spring的初始化
+（1）DispatcherServlet中的doGet/doPost首先被浏览器调用  本案例统一让他调用doPost
  
